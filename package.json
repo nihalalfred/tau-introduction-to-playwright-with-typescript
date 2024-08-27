@@ -1,0 +1,22 @@
+{
+  "name": "tau-introduction-to-playwright-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihalalfred/tau-introduction-to-playwright-with-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nihalalfred/tau-introduction-to-playwright-with-typescript/issues"
+  },
+  "homepage": "https://github.com/nihalalfred/tau-introduction-to-playwright-with-typescript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0"
+  }
+}

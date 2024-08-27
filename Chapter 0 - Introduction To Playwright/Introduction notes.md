@@ -1,38 +1,30 @@
 
 # Introduction to Playwright with TypeScript
-- **Instructor**: Renata Andrade
 
-## Course Overview
-Playwright is a framework designed for reliable end-to-end testing of modern web applications. It supports multiple languages, but this course will focus on **TypeScript**.
+## What is Playwright?
 
-### Why Playwright?
-- Simplicity and efficiency in end-to-end testing.
-- Supports various programming languages.
+**Playwright** is an open-source framework designed for reliable end-to-end testing of modern web applications.
   
-## Course Structure
-This course is divided into five chapters:
+## Why Should We Use Playwright?
 
-1. **Chapter 1**: Introduction to Playwright Documentation, Installation, and IDE Setup
-   - How to use Playwright documentation.
-   - Installation and running tests.
-   - Using VS Code and the Playwright extension.
-   
-2. **Chapter 2**: Configuring the Test Runner and Writing Your First Test
-   - Test runner setup.
-   - Executing test commands.
-   - Writing the first test.
+There are many reasons to choose Playwright as your test automation framework. Here are four key ones:
 
-3. **Chapter 3**: Test Structure Methods and Page Object Models
-   - Different methods used in test structure.
-   - Implementing Page Object Models (POM) in tests.
+### 1. Unified API
+- Works across all modern browser engines: **Chromium, WebKit, Firefox**.
+- Supports device emulation for comprehensive mobile coverage.
+- Offers both **headed** and **headless** browser options, allowing developers to balance debugging convenience with CI/Cloud execution needs.
 
-4. **Chapter 4**: Visual Regression Testing with Applitools and Playwright
-   - Integrating visual regression tools.
-   - Enhancing test robustness with Applitools.
+### 2. Resilient Testing
+- Implements **auto-wait** (no artificial timeouts) and **auto-retry** (web assertions), reducing flaky tests.
+- Provides rich tooling options like **tracing** and **time-travel**, simplifying the process of debugging and fixing issues when failures occur.
 
-5. **Chapter 5**: Troubleshooting and Debugging Tests
-   - Using reports for troubleshooting.
-   - UI mode and debug mode for issue resolution.
+### 3. Test Isolation
+- Each test runs in its own **BrowserContext**, ensuring independence from other tests running simultaneously.
+- Tests are executed in **parallel** for optimization, and a failure in one test does not affect others, enhancing reliability.
+
+### 4. Powerful Tooling
+- Streamlines the developer experience from **test authoring** to **execution**, **debugging**, **reporting**, and **profiling**.
+- Offers flexibility with options to use a **CLI** or the **Visual Studio Code extension**.
 
 ## Resources
 - [Playwright Website](https://playwright.dev/)
