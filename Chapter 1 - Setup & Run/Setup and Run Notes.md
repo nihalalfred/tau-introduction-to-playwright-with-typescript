@@ -4,6 +4,10 @@ Playwright can be installed in an existing project using the following command:
 
     npm init playwright@latest
 
+<img src="https://github.com/nihalalfred/tau-introduction-to-playwright-with-typescript/blob/main/Screenshots/Installation%201.png" height="600" width="1000" >
+
+<img src="https://github.com/nihalalfred/tau-introduction-to-playwright-with-typescript/blob/main/Screenshots/Installation%202.png" height="600" width="1000" >
+
 ### Configuration Steps
 When running this command, you will be prompted with several configuration options:
 
